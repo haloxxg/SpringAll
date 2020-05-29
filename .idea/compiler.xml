@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Spring-Boot-JdbcTemplate" />
+        <module name="sso-application-two" />
+        <module name="Spring-Boot-MyBatis-MultiDataSource" />
+        <module name="Spring-Boot-MyBatis" />
+        <module name="Spring-Boot-Config" />
+        <module name="sso-server" />
+        <module name="Start-Spring-Boot" />
+        <module name="sso-application-one" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Spring-Boot-Config" target="1.7" />
+      <module name="Spring-Boot-JdbcTemplate" target="1.7" />
+      <module name="Spring-Boot-MyBatis" target="1.7" />
+      <module name="Spring-Boot-MyBatis-MultiDataSource" target="1.7" />
+      <module name="sso" target="1.8" />
+      <module name="sso-application-one" target="1.8" />
+      <module name="sso-application-two" target="1.8" />
+      <module name="sso-server" target="1.8" />
+      <module name="Start-Spring-Boot" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sso-application-one" options="-parameters" />
+      <module name="sso-application-two" options="-parameters" />
+      <module name="sso-server" options="-parameters" />
+    </option>
+  </component>
+</project>
